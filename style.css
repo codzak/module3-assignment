@@ -1,0 +1,85 @@
+@media (max-width: 767px) {
+    .navbar-default .navbar-toggle {
+      border-color: #333;
+    }
+    body {
+        padding-top: 100px;
+      }}
+
+
+  /* Style the navigation bar */
+.navbar {
+    background-color: #f8f8f8;
+    border: none;
+    border-radius: 0;
+  }
+
+  .navbar-brand {
+    font-weight: bold;
+    color: #333;
+  }
+
+  .navbar-nav > li > a {
+    color: #333;
+  }
+
+  .navbar-nav > li > a:hover,
+  .navbar-nav > li > a:focus {
+    background-color: #f8f8f8;
+  }
+
+  /* Style the page header */
+  h1 {
+    margin-top: 100px;
+    margin-bottom: 50px;
+    font-weight: bold;
+    font-size: 48px;
+    color: #333;
+    text-align: center;
+  }
+
+  /* Style the menu items */
+  h2 {
+    font-size: 36px;
+    color: #333;
+    margin-top: 100px;
+    margin-bottom: 50px;
+  }
+
+  p {
+    font-size: 18px;
+    line-height: 1.5;
+    color: #666;
+  }
+
+  .navbar-toggler-icon {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    vertical-align: middle;
+    background: no-repeat center center;
+    background-size: 100% 100%;
+    text-indent: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+  }
+
+  .navbar-toggler-icon::before {
+    content: "";
+    display: inline-block;
+    width: 100%;
+    height: 2px;
+    background-color: #333;
+    border-radius: 1px;
+    margin-top: 5px;
+  }
+
+  .navbar-toggler-icon::after {
+    content: "";
+    display: inline-block;
+    width: 100%;
+    height: 2px;
+    background-color: #333;
+    border-radius: 1px;
+    margin-top: 5px;
+  }
